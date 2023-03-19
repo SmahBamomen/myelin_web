@@ -160,7 +160,7 @@ class _NavBarState extends State<NavBar> {
                                     open = !open;
                                   });
                                   widget.scrollController!.animateTo(
-                                      width / 0.3,
+                                      width / 0.35,
                                       duration: const Duration(seconds: 1),
                                       curve: Curves.easeIn);
                                 },
@@ -182,7 +182,7 @@ class _NavBarState extends State<NavBar> {
                                     open = !open;
                                   });
                                   widget.scrollController!.animateTo(
-                                      width / 0.20,
+                                      width / 0.28,
                                       duration: const Duration(seconds: 1),
                                       curve: Curves.easeIn);
                                 },
@@ -204,7 +204,7 @@ class _NavBarState extends State<NavBar> {
                                     open = !open;
                                   });
                                   widget.scrollController!.animateTo(
-                                      width / 0.20,
+                                      width / 0.21,
                                       duration: const Duration(seconds: 1),
                                       curve: Curves.easeIn);
                                 },
@@ -226,7 +226,7 @@ class _NavBarState extends State<NavBar> {
                                     open = !open;
                                   });
                                   widget.scrollController!.animateTo(
-                                      width / 0.188,
+                                      width / 0.21,
                                       duration: const Duration(seconds: 1),
                                       curve: Curves.easeIn);
                                 },
@@ -248,7 +248,7 @@ class _NavBarState extends State<NavBar> {
                                     open = !open;
                                   });
                                   widget.scrollController!.animateTo(
-                                      width / 0.188,
+                                      width / 0.2,
                                       duration: const Duration(seconds: 1),
                                       curve: Curves.easeIn);
                                 },
@@ -334,7 +334,7 @@ class _NavBarState extends State<NavBar> {
                   InkWell(
                     overlayColor: MaterialStateProperty.all(Colors.transparent),
                     onTap: (() {
-                      widget.scrollController!.animateTo(width / 0.2,
+                      widget.scrollController!.animateTo(width / 0.35,
                           duration: const Duration(seconds: 1),
                           curve: Curves.easeIn);
                     }),
@@ -390,7 +390,7 @@ class _NavBarState extends State<NavBar> {
                   InkWell(
                     overlayColor: MaterialStateProperty.all(Colors.transparent),
                     onTap: (() {
-                      widget.scrollController!.animateTo(width / 0.178,
+                      widget.scrollController!.animateTo(width / 0.175,
                           duration: const Duration(seconds: 1),
                           curve: Curves.easeIn);
                     }),
